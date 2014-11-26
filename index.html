@@ -72,7 +72,7 @@
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
     <meta name="author" content="Bartek Szopka" />
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+<!--     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /> -->
 
     <!--
         
@@ -164,7 +164,7 @@
         
     -->
     <div id="title" class="step" data-x="0" data-y="0" data-scale="3">
-        <span class="try">An introduce to </span>
+        <span class="try">An introduction to </span>
         <h1>Git Practices</h1>
     </div>
 
@@ -228,14 +228,32 @@
         element should be rotated by 90 degrees clockwise.
         
     -->
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+    <!--intro to HEAD and fast-forward-->
+    <div class="step" data-x="850" data-y="1500" data-rotate="90" data-scale="2">
+        <p>Introduce <b>HEAD</b> and <b>fast-forward</b></p>
     </div>
 
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+    <!-- HEAD-->
+    <div id="its" class="step slide" data-x="850" data-y="3500" data-rotate="90" data-scale="2">
+        <q><img style="position" src="./imgs/commit-master_svg.png" width="800"></q>
+    </div>
+
+    <!--fast-forward-->
+    <div class="step slide" data-x="850" data-y="6000" data-rotate="90" data-scale="2">
+        <q><img style="position" src="./imgs/merge-ff.svg" width="800"></q>
+    </div>
+
+    <!--intro to HEAD and fast-forward-->
+    <div class="step" data-x="-650" data-y="1500" data-rotate="90" data-scale="2">
+        <p>Introduce <b>merge</b> and <b>rebase</b></p>
+    </div>
+
+    <div class="step slide" data-x="-650" data-y="3500" data-rotate="90" data-scale="2">
+        <q><img style="position" src="./imgs/rebase.svg" width="800"></q>
+    </div>
+
+    <div id="big" class="step" data-x="4000" data-y="3200" data-rotate="180" data-scale="6">
+        <p>what about an <b>inappropriate</b> <span class="thoughts">commit?</span></p>
     </div>
 
     <!--
@@ -248,7 +266,7 @@
         
     -->
     <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p>and <b>tiny</b> ideas</p>
+        <p>don't <b>panic</b> </p>
     </div>
 
     <!--
@@ -271,18 +289,30 @@
         Only one current step has the `present` class.
         
     -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    <div  class="step" data-x="3000" data-y="-1550"  data-scale="2">
+        <p>Introduce <b>git commit --amend</b></p>
     </div>
 
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+    <div class="step slide" data-x="5000" data-y="-1500">
+        <p><img style="position" src="./imgs/commit-amend.svg"></p>
+    </div>
+
+    <div  class="step" data-x="3000" data-y="-550" data-scale="2">
+        <p>Introduce <b>git reset</b></p>
+    </div>
+
+    <div class="step slide" data-x="5000" data-y="-500">
+        <q><img style="position" src="./imgs/reset-commit.svg"></q>
+    </div>
+
+<!--     <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
         <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
-    </div>
-
+    </div> -->
+<!-- 
     <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
         <p>want to know more?</p>
         <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
-    </div>
+    </div> -->
 
     <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
         <p>one more thing...</p>
@@ -301,10 +331,13 @@
         
     -->
     <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
+        <p><span class="have">make</span> <span class="you">good</span> <span class="noticed">use</span> <span class="its">of</span> <span class="in"><b>git-fetch</b></span> </p>
+        
     </div>
 
+    <div  class="step" data-x="5000" data-y="1000" data-scale="6">
+        <p><b>Thank you!</b></p>
+    </div>
     <!--
         
         So to summarize of all the possible attributes used to position presentation steps, we have:

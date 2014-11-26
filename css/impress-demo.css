@@ -240,7 +240,7 @@ a:focus {
 }
 
 .slide img{
-    
+
 }
 /*
     And now we start to style each step separately.
@@ -300,8 +300,8 @@ a:focus {
 
 #big b {
     display: block;
-    font-size: 250px;
-    line-height: 250px;
+    font-size: 100px;
+    line-height: 150px;
 }
 
 #big .thoughts {
